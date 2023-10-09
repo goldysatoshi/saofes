@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8">
+        <title>SAO FES</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta property="og:url" content="ページのURL" />
+        <meta property="og:type" content="ページの種類" />
+        <meta property="og:title" content="ページのタイトル" />
+        <meta property="og:description" content="ページの説明文" />
+        <meta property="og:site_name" content="サイト名" />
+        <meta property="og:image" content="画像のURL" />
+
+    <!-- CSS -->
+        <link rel="stylesheet" href="https://unpkg.com/destyle.css@1.0.5/destyle.css">
+        <link href="https://fonts.googleapis.com/css2?family=Texturina:wght@800&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap" rel="stylesheet">
+        <link href="style.css" rel="stylesheet">
+    </head>
+
+	<body>
+        <header>
+            <div class="wrapper">
+                <a href="#" class="logo">SAO FES</a>
+                <nav>
+                    <button class="menu-btn">Menu</button>
+                        <ul class="menu-list">
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#news">News</a></li>
+                            <li><a href="#artist">Artist</a></li>
+                            <li><a href="#ticket">Ticket</a></li>
+                        </ul>
+                </nav>
+            </div>
+        </header>
+        <section id="hero">
+            <h1>SAO FES</h1>
+            <p class="fes-data">2023.10.05</p>
+        </section>
+        <section id="about" class="wrapper">
+            <h2>About</h2>
+            <p>
+                数十年間、この地域は”さおうりんご”の畑で知られていました。しかし、2014年の夏、台風が襲来し、そのりんご畑は壊滅的な被害を受けました。農家たちは落胆し、地域の人々もその美しい景色が失われることに寂しさを感じました。
+                しかし、逆境の中で地域のコミュニティリーダーや若者たちは、りんご畑跡地を利用して何か新しいことを始めることを提案しました。そこでアイデアとして浮かんだのが「さおうフェス」でした。
+            </p>
+        </section>
+        <section id="news">
+            <div class="wrapper">
+                <h2>News</h2>
+                <table class="news-list">
+                    <tr>
+                        <td class="news-data">2023.6.10</td>
+                        <td class="news-contents">第1弾出演アーティスト発表!</td>
+                    </tr>
+                    <tr>
+                        <td class="news-data">2023.5.25</td>
+                        <td class="news-contents">チケット抽選販売先行受付中!</td>
+                    </tr>
+                    <tr>
+                        <td class="news-data">2023.5.05</td>
+                        <td class="news-contents">飲食出店者の募集スタート!</td>
+                    </tr>
+                    <tr>
+                        <td class="news-data">2023.4.10</td>
+                        <td class="news-contents">SAO FES 2023,開催決定!</td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+        <section id="artist" class="wrapper">
+            <h2>Artist</h2>
+            <div class="artist-list">
+                <div class="artist-text">
+                    <h3 class="artist-name">サンライトビームズ</h3>
+                    <p>彩り豊かな音楽で心を温めるポップバンド、サンライトビームズが今年のフェスに登場！メロディックなギターリフとキャッチーなコーラスで、聴く人々を明るい日差しのような気分にしてくれます。デビュー以来、その楽曲は希望と幸福感を伝え、ファンを魅了し続けています。</p>
+                </div>
+                <img src="images/artist-1.jpg" alt="サンライトビームズ">
+            </div>
+            <div class="artist-list">
+                <div class="artist-text">
+                    <h3 class="artist-name">エレクトロヴォーカルシスター</h3>
+                    <p>未来のエレクトロポップを具現化するユニークな存在、エレクトロヴォーカルシスターがフェスティバルの舞台に登場！彼女の音楽はダンサブルでありながら、実験的なエレクトロニックサウンドがアートと融合。魅惑的なボーカルハーモニーが、聴く者を別次元へと誘います。</p>
+                </div>
+                <img src="images/artist-2.jpg" alt="">
+            </div>
+            <!-- <div class="artist-list">
+                <div class="artits-text">
+                    <h3 class="artist-name"></h3>
+                    <p></p>
+                </div>
+            </div> -->
+        </section>
+        <section id="ticket">
+            <div class="wrapper">
+                <h2>Ticket</h2>
+                <form action="#" class="tickt-form">
+                        <label>名前</label>
+                        <input class="ticket-fild" type="text" placeholder="例：佐王アップル弦太">
+                        <label>Email</label>
+                        <input class="ticket-fild" type="text" placeholder="例：saouapplegenta.com">
+                        <input class="ticket-btn" type="submit" value="抽選応募！">
+                </form>
+            </div>
+            <div class="footer wrapper">
+                <p>
+                    <a href="#">お問い合わせ</a> / <small>&copy; 2023 SAO FES</small>
+                </p>
+            </div>
+        </section>
+
+        <script src="js/script.js"></script>
+	</body>
+</html>
